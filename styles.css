@@ -78,3 +78,7 @@ main {
     font-size: 2em;
     color: #bbb;
 }
+
+html {
+    scroll-behavior: smooth;
+}
