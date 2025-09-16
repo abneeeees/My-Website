@@ -1,70 +1,109 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>abneeeees - Artist Portfolio</title>
+    <title>abneeeees - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- -------------------------------nav---------------------------- -->
     <div class="container">
         <nav class="sidebar">
-            <h1>Abneeeees</h1>
+            <br>
+            <h1>abneeeees</h1>
+            <br>
             <ul>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about"  >About</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-
         </nav>
+
+        <!-- -------------------------------main---------------------------- -->
         <main>
-            <section id="gallery" class="gallery">
-                <img src="img/BDSM COVERART.jpg" alt="Artwork 1">
-                <img src="img/BHATTI GARAM COVERART_.jpg" alt="Artwork 2">
-                <img src="img/RAJA RAVI VERMA IMITATE.jpg" alt="Artwork 19">
-                <img src="img/EK-DO-TEEN COVERART.png" alt="Artwork 8">
-                <img src="img/DAY-DREAMER.png" alt="Artwork 25">
-                <img src="img/SELF ART_.jpg" alt="Artwork 22">
-                <img src="img/SELF PORTRAIT_.jpg" alt="Artwork 23">
-                <img src="img/FLOWER BOY INTERPOLATION_.jpg" alt="Artwork 9">
-                <img src="img/FRANK ASAP TYLER.jpg" alt="Artwork 11">
-                <img src="img/KENDRICK FANART_.jpg" alt="Artwork 15">
-                <img src="img/DEVTA THUMBNAIL_.jpg" alt="Artwork 7">
-                <img src="img/MODILANDER.jpg" alt="Artwork 18">
-                <img src="img/MODILANDER BACK.jpg" alt="Artwork 17">
-                <img src="img/LIFE IS STRANGE ART.jpg" alt="Artwork 16">
-                <img src="img/REINCARNATION_.jpg" alt="Artwork 20">
-                <img src="img/BOJACK.jpg" alt="Artwork 4">
-                <img src="img/SEEDHE MAUT COVERART.jpg" alt="Artwork 21">
-                <img src="img/GTA INTERPOLATION_.jpg" alt="Artwork 12">
-                <img src="img/KANYE TUX STICKER_.png" alt="Artwork 14">
-                <img src="img/BLONDE ART.jpg" alt="Artwork 3">
-                <img src="img/COLLEGE POSTER_.jpg" alt="Artwork 5">
-                <img src="img/DELTAM TITLE_.jpg" alt="Artwork 6">
-                <img src="img/FOSS HACK FLYER.png" alt="Artwork 10">
-                <img src="img/GULAAB TITLE_.jpg" alt="Artwork 13">
-
-
-
-
-            </section>
+            <!-- About Section -->
             <section id="about" class="about">
-                <h2>About Me</h2>
-                <p>Hey , I'm abneeeees aka Avneesh Kumar , a 19 year old digital artist exploring different styles and forms of expression.
-                    I like to make coverarts , posters and potraits . Contact me for any work 
+                <h1 style="text-align: center;">[ >abneeeees ]</h1>
+                <h3 style="text-align: center;">Hi There I'm Avneesh</h3>
+                <p  style="text-align: center;">
+                    Computer Science student learning Cybersecurity, Software Development, Computer Networks. 
+                    <br>
+                    Apprentice in Python programming, Cyber Security, and Web Development.
                 </p>
             </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects" style="text-align: center;">
+                <h2>Projects</h2>
+                <div class="projects-scroll">
+
+                    <div class="projects-row" style="text-align: center;">
+                        <a href="https://github.com/abneeeees/SKULL-SHELL" class="project-card">
+                            <img src="img/Skull_Shell.png" alt="SKULL-SHELL" class="project-image">
+                            <div class="project-content">
+                                <h3>SKULL SHELL</h3>
+                                <p>SKULL is a light weight shell made in C </p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/abneeeees/Deck-Of-Wars" class="project-card">
+                            <img src="img/Deck_menu.png" alt="Project 2 preview" class="project-image">
+                            <div class="project-content">
+                                <h3>DECK-OF-WARS</h3>
+                                <p>Deck of Wars is an online multiplayer action card game.</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://github.com/abneeeees/REVISIT" class="project-card">
+                            <img src="img/main_menu.png" alt="Project 3 preview" class="project-image">
+                            <div class="project-content">
+                                <h3>REVISIT</h3>
+                                <p>Another awesome project description.</p>
+                            </div>
+                        </a>
+    
+                        <a href="https://github.com/abneeeees/Nmap-scanner" class="project-card">
+                            <img src="img/Nmap.png" alt="Project 4 preview" class="project-image">
+                            <div class="project-content">
+                                <h3>NMAP SCANNER</h3>
+                                <p>Another awesome project description.</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/abneeeees/Github-Analyzer" class="project-card">
+                            <img src="img/git-analyzer.png" alt="Project 4 preview" class="project-image">
+                            <div class="project-content">
+                                <h3>GITHUB ANALYZER</h3>
+                                <p>Another awesome project description.</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/abneeeees/Morse-code-convertor" class="project-card">
+                            <img src="img/morse.png" alt="Project 4 preview" class="project-image">
+                            <div class="project-content">
+                                <h3>MORSE CODE CONVERTOR</h3>
+                                <p>Another awesome project description.</p>
+                            </div>
+                        </a>
+
+                    </div>
+                </div> <!-- FIXED: Missing closing div -->
+            </section>
+
+            <!-- Contact Section -->
             <section id="contact" class="contact">
                 <h2>Contact</h2>
-                <p>Email: <a href="mailto:your-email@example.com">avneeshsingh288@gmail.com</a></p>
+                <p>Email: <a href="mailto:abneeeees@proton.me">abneeeees@proton.me</a></p>
                 <p>Instagram: <a href="https://www.instagram.com/abneeeees/" target="_blank">instagram.com/abneeeees</a></p>
                 <p>LinkedIn: <a href="https://www.linkedin.com/in/avneesh-kumar-649796357/" target="_blank">linkedin.com/avneesh-kumar</a></p>
                 <p>X: <a href="https://x.com/aBneeeees" target="_blank">x.com/aBneeeees</a></p>                
             </section>
         </main>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
