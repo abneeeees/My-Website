@@ -50,7 +50,7 @@ body {
 }
 
 .sidebar ul li a {
-    color: #bbb;
+    color: #ffffff;
     text-decoration: none;
     font-size: 0.95rem;
     transition: color 0.3s;
@@ -64,6 +64,7 @@ body {
 main {
     padding: 30px;
 }
+
 
 /* -------- Project Scroll Section -------- */
 .projects-scroll {
@@ -132,9 +133,16 @@ main {
 }
 
 /* -------- Other sections -------- */
-.contact {
+
+.contact p a{
     padding: 40px;
+    color: #ffffff;
+    font-size: large;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s;
 }
+
 .about h2, .contact h2 {
     font-size: 2em;
     color: #bbb;
