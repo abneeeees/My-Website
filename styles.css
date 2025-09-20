@@ -7,7 +7,7 @@ body {
     color: white;
 }
 
-/* container holds nav and content vertically */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ body {
     padding: 10px 25px;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Change from space-between to flex-start */
+    justify-content: flex-start; 
     gap: 20px;
     position: sticky;
     top: 0;
@@ -30,7 +30,7 @@ body {
 }
 
 .sidebar {
-    justify-content: space-between; /* Keep this */
+    justify-content: space-between; 
 }
 
 .sidebar h1 {
@@ -65,6 +65,23 @@ main {
     padding: 30px;
 }
 
+/* ---------Profile picture------- */
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* space between photo and name */
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 100px;       
+    height: 100px;    
+    border-radius: 50%;
+    border: 1px solid #c5ecc1; 
+    object-fit: cover;  
+    box-shadow: 0px 0px 5px  #10f12a;   
+}
 
 /* -------- Project Scroll Section -------- */
 .projects-scroll {
@@ -103,6 +120,7 @@ main {
     display: flex;
     flex-direction: column;
     transition: transform 0.2s ease;
+    box-shadow: 0px 0px 5px  #10f12a;
 }
 
 .project-card:hover {
